@@ -1,10 +1,8 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/employees/page": "app/employees/page.js",
-  "/documents/page": "app/documents/page.js",
-  "/leave/page": "app/leave/page.js",
   "/page": "app/page.js",
-  "/reports/page": "app/reports/page.js",
-  "/settings/page": "app/settings/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/employees/page": "app/employees/page.js",
+  "/leave/page": "app/leave/page.js",
+  "/documents/page": "app/documents/page.js",
+  "/reports/page": "app/reports/page.js"
 }

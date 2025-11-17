@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/graduacao",
-  /* config options here */
+  // Removed basePath for root deployment on Vercel/Netlify
+  // If you need subdirectory deployment, uncomment and set accordingly
+  // basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
   typescript: {
     ignoreBuildErrors: true,
   },
